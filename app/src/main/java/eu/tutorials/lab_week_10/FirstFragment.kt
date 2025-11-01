@@ -39,10 +39,12 @@ class FirstFragment : Fragment() {
         view?.findViewById<TextView>(R.id.text_total)?.text =
             getString(R.string.text_total, total)
     }
-    private fun prepareViewModel(){
+    private fun prepareViewModel() {
         val viewModel =
-            ViewModelProvider(this).get(TotalViewModel::class.java)
-        updateText(viewModel.total)
+            ViewModelProvider(requireActivity()).get(TotalViewModel::class.java)
+        viewModel.total.observe(viewLifecycleOwner, {
+            updateText(it)
+        })
     }
     companion object {
         fun newInstance(param1: String, param2: String) =
