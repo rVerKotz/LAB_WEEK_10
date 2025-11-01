@@ -1,4 +1,4 @@
 # Activity
-[url=https://postimg.cc/2q457JxJ][img]https://i.postimg.cc/2q457JxJ/Frame-35542-1.png[/img][/url]
+[![Frame-35542-1.png](https://i.postimg.cc/QMzWhZKX/Frame-35542-1.png)](https://postimg.cc/2q457JxJ)
 # Assignment
 [![Frame-35542.png](https://i.postimg.cc/mkXSYHzd/Frame-35542.png)](https://postimg.cc/K3TLF45L)
